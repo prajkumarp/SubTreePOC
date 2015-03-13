@@ -14,6 +14,17 @@
 
 @implementation ViewController2
 
+- (instancetype)init
+{
+    NSBundle* resourcesBundle = [NSBundle bundleForClass:[self class]];
+    
+    self = [super initWithNibName:@"ViewController2" bundle:resourcesBundle];
+    
+    if (self) {
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
