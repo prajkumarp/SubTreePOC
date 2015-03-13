@@ -10,9 +10,9 @@
 		13D9F8581AB088DD00818093 /* App1.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D9F8571AB088DD00818093 /* App1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13D9F85E1AB088DD00818093 /* App1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D9F8521AB088DD00818093 /* App1.framework */; };
 		13D9F8651AB088DD00818093 /* App1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F8641AB088DD00818093 /* App1Tests.m */; };
-		13D9F87B1AB094C800818093 /* ViewController1.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D9F8791AB094C800818093 /* ViewController1.h */; };
+		13D9F87B1AB094C800818093 /* ViewController1.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D9F8791AB094C800818093 /* ViewController1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13D9F87C1AB094C800818093 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F87A1AB094C800818093 /* ViewController1.m */; };
-		13D9F8801AB094E300818093 /* ViewController2.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D9F87D1AB094E300818093 /* ViewController2.h */; };
+		13D9F8801AB094E300818093 /* ViewController2.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D9F87D1AB094E300818093 /* ViewController2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13D9F8811AB094E300818093 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9F87E1AB094E300818093 /* ViewController2.m */; };
 		13D9F8821AB094E300818093 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13D9F87F1AB094E300818093 /* ViewController2.xib */; };
 /* End PBXBuildFile section */
@@ -426,6 +426,7 @@
 				13D9F86A1AB088DD00818093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13D9F86B1AB088DD00818093 /* Build configuration list for PBXNativeTarget "App1Tests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +435,7 @@
 				13D9F86D1AB088DD00818093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
